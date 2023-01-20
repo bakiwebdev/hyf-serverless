@@ -35,9 +35,10 @@ aws s3 ls
 ```
 
 This command will list all the S3 buckets in your account. If the configuration is successful, you should see a list of your S3 buckets.
+
 Additional Resources
 
-- AWS CLI Docs
-- IAM User Guide
+- [AWS CLI Docs](https://docs.aws.amazon.com/cli/index.html)
+- [IAM User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
 
 > Please note that these are basic instructions for setting up AWS CLI configuration. Additional configuration and security measures may be necessary depending on your specific use case.
