@@ -1,9 +1,47 @@
-1. Install the AWS Command Line Interface (CLI) on your local computer. This can be done by downloading the AWS CLI from the official AWS website.
+# Setting up AWS CLI Configuration
 
-2. Create an IAM user in AWS. The IAM user will be used to access and manage AWS services from the CLI tool. Make sure to provide the user with the appropriate permissions.
+## Prerequisites
 
-3. Configure the AWS CLI. This can be done by running “aws configure” in the command line. When prompted, enter the access key, secret key and the region of the AWS account.
+- [AWS account](https://aws.amazon.com/)
+- [AWS CLI](https://aws.amazon.com/cli/) installed on your local machine
 
-4. Test the configuration by running “aws sts get-caller-identity” in the command line. This should return information about the IAM user that you created in the previous step.
+# Step 1: Install AWS CLI
 
-5. You have now successfully set up the AWS CLI. You can now use the CLI to access and manage AWS services from the command line.
+If you haven't already, install the AWS CLI on your local machine using the following command:
+
+```
+pip install awscli --upgrade --user  (for Windows and Linux)
+or 
+brew install awscli (for MacOS)
+```
+
+## Step 2: Configure the AWS CLI
+
+Use the following command to configure the AWS CLI with your AWS credentials:
+
+```
+aws configure
+```
+
+You will be prompted for the following information:
+
+- AWS Access Key ID: This is the access key for your IAM user.
+- AWS Secret Access Key: This is the secret key for your IAM user.
+- Default region name: The region where you want to create your resources.
+- Default output format: The format in which you want the AWS CLI to return output. (optional)
+
+## Step 3: Verify your configuration
+
+Use the following command to verify that your configuration is working as expected:
+
+```
+aws s3 ls
+```
+
+This command will list all the S3 buckets in your account. If the configuration is successful, you should see a list of your S3 buckets.
+Additional Resources
+
+- AWS CLI Docs
+- IAM User Guide
+
+> Please note that these are basic instructions for setting up AWS CLI configuration. Additional configuration and security measures may be necessary depending on your specific use case.
