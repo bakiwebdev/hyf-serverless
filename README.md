@@ -65,4 +65,6 @@ Additional Resources
 - [AWS Lambda Docs](https://aws.amazon.com/lambda/)
 - [AWS API Gateway Docs](https://aws.amazon.com/api-gateway/)
 
-Note: This is a basic example and it's possible that you'll need to add more configurations or resources depending on your specific use case.
+> Note: This is a basic example and it's possible that you'll need to add more configurations or resources depending on your specific use case.
+
+Congratulations! You have successfully deployed your serverless application on the AWS platform.
