@@ -7,7 +7,7 @@ This guide will help you to get started with building and deploying a serverless
 - [AWS account](https://aws.amazon.com/)
 - [AWS CLI](https://aws.amazon.com/cli/) configured with your AWS credentials -> [or follow this step](https://github.com/bakiwebdev/hyf-serverless/blob/main/aws-cli-configuration.md)
 - [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed
-- [Serverless Framework](https://serverless.com/) [or follow this step](https://github.com/bakiwebdev/hyf-serverless/blob/main/install-serverless-framework.md)
+- Download and install [Serverless Framework](https://serverless.com/) -> [or follow this step](https://github.com/bakiwebdev/hyf-serverless/blob/main/install-serverless-framework.md)
 
 
 <!-- Step by Step configuring AWS CLI credentials -->
