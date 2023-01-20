@@ -7,13 +7,9 @@
 
 # Step 1: Install AWS CLI
 
-If you haven't already, install the AWS CLI on your local machine using the following command:
+[Download and run](https://awscli.amazonaws.com/AWSCLIV2.msi) the AWS CLI MSI installer for Windows (64-bit):
 
-```
-pip install awscli --upgrade --user  (for Windows and Linux)
-or 
-brew install awscli (for MacOS)
-```
+> To confirm the installation, open the Start menu, search for cmd to open a command prompt window, and at the command prompt use the `aws --version` command. 
 
 ## Step 2: Configure the AWS CLI
 
