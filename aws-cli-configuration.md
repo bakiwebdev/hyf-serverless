@@ -33,6 +33,10 @@ Use the following command to verify that your configuration is working as expect
 ```
 aws s3 ls
 ```
+or
+```
+aws sts get-caller-identity
+```
 
 This command will list all the S3 buckets in your account. If the configuration is successful, you should see a list of your S3 buckets.
 
