@@ -41,4 +41,19 @@ Additional Resources
 - [AWS CLI Docs](https://docs.aws.amazon.com/cli/index.html)
 - [IAM User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
 
+
+Common AWS CLI Commands
+
+1. `aws s3 ls` : Lists the objects in an Amazon S3 bucket
+2. `aws ec2 describe-instances` : Retrieves information about EC2 instances
+3. `aws cloudformation create-stack `: Creates a new stack in AWS CloudFormation
+4. `aws dynamodb list-tables` : Lists all DynamoDB tables owned by the current user
+5. `aws iam list-users` : Lists the IAM users in your AWS account
+6. `aws lambda list-functions` : Lists all Lambda functions in your AWS account
+7. `aws s3 mb s3://<bucket_name>` : Creates a new S3 bucket
+8. `aws s3 sync <source_directory> s3` : //<bucket_name>: Syncs a local directory to an S3 bucket
+9. `aws s3 cp <source_file> s3` : //<bucket_name> : Copies a file from your local machine to an S3 bucket
+10. `aws s3 rm s3://<bucket_name>` : Deletes an S3 bucket and all its contents
+
+
 > Please note that these are basic instructions for setting up AWS CLI configuration. Additional configuration and security measures may be necessary depending on your specific use case.
